@@ -35,9 +35,9 @@ export const tools: Tool[] = [
   },
   {
     id: 'devstral',
-    name: 'Devstral',
+    name: 'Devstral 2',
     category: 'AI Model',
-    description: 'A specialized coding model from Mistral AI and All Hands AI, designed specifically for agentic workflows and complex reasoning.',
+    description: 'Mistral AI\'s specialized coding model. Version 2 (Dec 2025) brings enhanced reasoning for agentic workflows.',
     link: 'https://mistral.ai',
     isNew: true
   },
@@ -67,9 +67,9 @@ export const tools: Tool[] = [
   },
   {
     id: 'duckdb',
-    name: 'DuckDB 1.4',
+    name: 'DuckDB 1.4.3',
     category: 'Database',
-    description: 'An in-process SQL OLAP database management system. Version 1.4 (Dec 2025) brings massive performance gains for local analytics.',
+    description: 'An in-process SQL OLAP database management system. Version 1.4.3 (Dec 2025) brings massive performance gains for local analytics.',
     link: 'https://duckdb.org',
     isNew: true
   },
@@ -83,9 +83,9 @@ export const tools: Tool[] = [
   },
   {
     id: 'langchain',
-    name: 'LangChain 1.0',
+    name: 'LangChain 1.2',
     category: 'AI Framework',
-    description: 'The standard framework for building LLM apps. Version 1.0 (Oct 2025) finally brings API stability and production-ready features.',
+    description: 'The standard framework for building LLM apps. Version 1.2 (Dec 2025) finally brings API stability and production-ready features.',
     link: 'https://langchain.com',
     isNew: true
   },
@@ -138,12 +138,12 @@ export const tools: Tool[] = [
     isNew: false
   },
   {
-    id: 'cody',
-    name: 'Cody',
-    category: 'AI Assistant',
-    description: 'Sourcegraph\'s AI coding assistant. Best-in-class for understanding large codebases and answering questions about them.',
+    id: 'amp',
+    name: 'Amp',
+    category: 'AI Agent',
+    description: 'Sourcegraph\'s new AI coding agent. Engineered for outcomes with no token constraints, replacing Cody Free/Pro.',
     link: 'https://sourcegraph.com/cody',
-    isNew: false
+    isNew: true
   },
   {
     id: 'amazon-q',
