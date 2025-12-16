@@ -1,0 +1,25 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0F172A"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 315) rotate(90) scale(600 1200)">
+      <stop stop-color="#0F172A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#fade)"/>
+
+  <!-- Logo Icon Element -->
+  <rect x="150" y="215" width="160" height="160" rx="32" stroke="#3B82F6" stroke-width="24"/>
+  <path d="M190 295H270" stroke="#3B82F6" stroke-width="24" stroke-linecap="round"/>
+
+  <!-- Text -->
+  <text x="360" y="320" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="96" fill="white">EngieTools</text>
+  <text x="360" y="400" font-family="system-ui, -apple-system, sans-serif" font-weight="medium" font-size="40" fill="#94A3B8">Top 20 Engineering Tools of 2025</text>
+</svg>
