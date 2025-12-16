@@ -1,0 +1,3 @@
+name = "engietools"
+compatibility_date = "2025-12-16"
+pages_build_output_dir = "dist"
