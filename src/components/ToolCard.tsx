@@ -34,8 +34,15 @@ export const ToolCard: FC<ToolCardProps> = ({ tool }) => {
         </div>
       </div>
 
-      <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">
-        {tool.name}
+      <h3 className="text-xl font-bold text-white mb-2">
+        <a 
+          href={tool.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-400 transition-colors hover:underline decoration-blue-500/30 underline-offset-4"
+        >
+          {tool.name}
+        </a>
       </h3>
       
       <p className="text-slate-400 mb-6 leading-relaxed">
